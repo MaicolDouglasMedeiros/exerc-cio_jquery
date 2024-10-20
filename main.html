@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Estilo Excel</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <form>
+        <label id=remodelar>TAREFA</label>
+        <input id="tarefaformulario" type="text">
+        <button id="enviar" type="submit">ENVIAR</button>
+    </form>
+
+    <h1>LISTA DE TAREFAS</h1>
+
+    <div class="table-container">
+        <table id="excelTable">
+            <thead>
+                <tr>
+                    <th>TAREFA</th>
+                </tr>
+            </thead>
+            <tbody id="ficha">
+                <tr>
+                    <td id="respostatarefa"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+
+

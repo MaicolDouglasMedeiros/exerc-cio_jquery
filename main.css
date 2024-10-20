@@ -1,0 +1,54 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin: 20px;
+}
+#remodelar {
+    font-family:  "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+#excelTable {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Faz com que as células tenham tamanhos iguais */
+    text-align: left;
+}
+
+#excelTable th, #excelTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#excelTable th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    position: sticky; /* Fixa o cabeçalho da tabela ao rolar */
+    top: 0;
+}
+
+#excelTable td {
+    background-color: #fff;
+}
+
+#excelTable tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Cor de fundo alternada para linhas pares */
+}
+
+#excelTable tr:hover td {
+    background-color: #e6f7ff; /* Destaque ao passar o mouse sobre uma linha */
+}
+
+.line-through {
+    text-decoration: line-through;
+}
